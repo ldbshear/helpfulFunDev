@@ -3,6 +3,17 @@
   align-items: baseline;
 }
 
-.hide {
-  visibility: hidden;
+.greeting {
+  margin-bottom: 100px;
 }
+
+.funBorder {
+  min-width: 300px;
+  border: 10px solid black;
+  border-radius: 15px;
+}
+
+/* .picBorder{
+   border: 3px double white;
+  border-radius: 15px;
+} */
