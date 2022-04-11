@@ -7,7 +7,9 @@ h5 {
   font-family: "Kanit", sans-serif;
 }
 
-.homePageNav {
+.myBrand {
+  font-family: "Kanit", sans-serif;
+  padding-left: 10px;
 }
 
 .dark__mode__moon {
@@ -26,8 +28,9 @@ h5 {
   background-position: right;
 }
 
-.greeting-text h1 {
-  color: #2b0672;
+.greeting-text h1,
+p {
+  color: #722b06;
 }
 
 .funBorder {
@@ -41,7 +44,38 @@ h5 {
   font-weight: 600;
 }
 
-/* .picBorder{
-   border: 3px double white;
-  border-radius: 15px;
-} */
+.skill {
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 200px;
+  padding: 100px 20px;
+}
+
+.skill-html {
+  background-image: url(/images/logos/128px-HTML5_logo.png);
+}
+.skill-css {
+  background-image: url(/images/logos/CSS3_logo.png);
+
+}
+.skill-bootstrap {
+  background-image: url(/images/logos/bootstrap-logo.svg);
+  background-size: contain;
+}
+.skill-javascript {
+  background-image: url(/images/logos/256px-JavaScript-logo.png);
+  background-size: contain;
+}
+.skill-github {
+  background-image: url(/images/logos/Octocat.png);
+  background-size: contain;
+}
+.skill-netlify {
+  background-image: url(/images/logos/Netlify_logo.svg);
+}
+.skill-react {
+  background-image: url(/images/logos/React-icon.png);
+}
+.skill-shecodes {
+  background-image: url(/images/logos/128px-HTML5_logo.png);
+}
