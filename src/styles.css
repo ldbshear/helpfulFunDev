@@ -7,19 +7,38 @@ h5 {
   font-family: "Kanit", sans-serif;
 }
 
+.homePageNav {
+}
+
 .dark__mode__moon {
   margin: 10px 26px;
   align-items: baseline;
 }
 
 .greeting {
+  padding-top: 200px;
+  padding-bottom: 200px;
   margin-bottom: 100px;
+  background-image: url(/images/school-6144054_1920.png),
+    linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.greeting-text h1 {
+  color: #2b0672;
 }
 
 .funBorder {
   min-width: 300px;
   border: 10px solid black;
   border-radius: 15px;
+}
+
+.greeting h1 {
+  font-size: 3.25rem;
+  font-weight: 600;
 }
 
 /* .picBorder{

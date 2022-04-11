@@ -21,9 +21,9 @@
     
   </head>
   <body>
-    <div class="container">
+    <div class="container-fluid px-0 homePageNav">
       <header
-        class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
+        class="d-flex flex-wrap justify-content-center py-3 border-bottom shadow-sm"
       >
         <a
           href="/"
@@ -120,22 +120,59 @@
       </header>
     </div>
 
-    <main class="px-3">
-      <section class="greeting">
-        <div class="text-center">
-        <h1>Hi. I'm Louisa.</h1>
-        <p class="lead">
-          A front-end developer focused on making helpful, fun, and educational
-          apps.
-        </p>
-       
-      </div>
+    <main class="">
+      <section class="container-fluid greeting">
+        <div class="row">
+          <div class="col-1-md">
+            <div class="container"></div>
+          </div>
+          <div class="col-md-6">
+            <div class="text-center greeting-text">
+                  <h1>Hi. I'm Louisa.</h1>
+                    <p class="lead">
+                      A front-end developer focused on making apps that are helpful and that encourage individuals to learn. 
+                    </p>
+               </div>
+          </div>
+        </div>
+        
       </section>
       
 
       <div class="container">
         <!-- Stack the columns on mobile by making one full-width and the other half-width -->
-        <div class="row justify-content-around">
+        <div class="row justify-content-around gy-5">
+          <div class="col-md-4 funBorder p-0 text-white text-center bg-primary">
+            <h4 class="mt-2">Built with HTML and CSS</h4>
+            <div class="card text-white bg-primary">
+              <img src="/images/holderPic.jpg" alt="" class="img-fluid picBorder">
+              <div class="card-body">
+                <h5 class="card-title">Primary card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+           <div class="col-md-4 funBorder p-0 text-white text-center bg-primary">
+            <h4 class="mt-2">Built with HTML and CSS</h4>
+            <div class="card text-white bg-primary">
+              <img src="/images/holderPic.jpg" alt="" class="img-fluid picBorder">
+              <div class="card-body">
+                <h5 class="card-title">Primary card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="row justify-content-around gy-5">
           <div class="col-md-4 funBorder p-0 text-white text-center bg-primary">
             <h4 class="mt-2">Built with HTML and CSS</h4>
             <div class="card text-white bg-primary">
@@ -167,7 +204,7 @@
 
 
         <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
-        <div class="row">
+        <div class="row gy-5">
           <div class="col-6 col-md-4 border border-primary">
             .col-6 .col-md-4
           </div>
