@@ -47,16 +47,17 @@ p {
 .skill {
   background-repeat: no-repeat;
   background-position: center;
-  max-width: 200px;
+  min-width: 160px !important;
+  max-width: 180px;
   padding: 100px 20px;
 }
 
 .skill-html {
   background-image: url(/images/logos/128px-HTML5_logo.png);
+  background-size: contain;
 }
 .skill-css {
   background-image: url(/images/logos/CSS3_logo.png);
-
 }
 .skill-bootstrap {
   background-image: url(/images/logos/bootstrap-logo.svg);
@@ -64,7 +65,8 @@ p {
 }
 .skill-javascript {
   background-image: url(/images/logos/256px-JavaScript-logo.png);
-  background-size: contain;
+  background-size: cover;
+  background-position: center;
 }
 .skill-github {
   background-image: url(/images/logos/Octocat.png);
@@ -72,10 +74,13 @@ p {
 }
 .skill-netlify {
   background-image: url(/images/logos/Netlify_logo.svg);
+  background-size: contain;
 }
 .skill-react {
   background-image: url(/images/logos/React-icon.png);
+  background-size: contain;
 }
 .skill-shecodes {
   background-image: url(/images/logos/128px-HTML5_logo.png);
+  background-size: contain;
 }
