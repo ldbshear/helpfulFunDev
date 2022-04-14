@@ -15,6 +15,22 @@ nav {
   height: 100vh;
 }
 
+.textBlock {
+  margin-top: 150px;
+  width: 60%;
+}
+
+.textBlockMainHeading {
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.textBlockParagraph {
+  font-size: 2.75rem;
+  font-weight: 600;
+}
+
 .yellowBlock {
   height: 100vh;
   background: #f0d43a;
@@ -39,11 +55,6 @@ nav {
   min-width: 300px;
   border: 10px solid black;
   border-radius: 15px;
-}
-
-.greeting h1 {
-  font-size: 3.25rem;
-  font-weight: 600;
 }
 
 .skill {
