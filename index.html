@@ -12,6 +12,12 @@
       href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,400;0,500;0,600;1,400;1,500;1,600&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,400;0,500;0,600;1,400;1,500;1,600&family=Londrina+Outline&display=swap"
+      rel="stylesheet"
+    />
 
     <link href="src/styles.css" rel="stylesheet" />
 
@@ -66,8 +72,8 @@
       </nav>
     </header>
 
-    <section class="greeting">
-      <div class="container-fluid bg-primary">
+    <div class="container-fluid bg-primary">
+      <section id="greeting">
         <div class="container-fluid storyBlock bg-dark">
           <div class="row">
             <div class="col-4 yellowBlock">1 of 2</div>
@@ -76,22 +82,104 @@
                 <div class="row">
                   <h1 class="textBlockMainHeading">Hi! I'm Louisa.</h1>
                   <p class="textBlockParagraph">
-                    I love making helpful, educational and/or fun apps, that
-                    give others the confidence to learn at their own pace.
+                    I love making <span class="outlines">helpful</span>,
+                    educational and/or <span class="outlines">fun</span> apps,
+                    that give others the confidence to learn at their own pace.
                   </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="container storyBlock bg-dark">
-          <div class="row">
-            <div class="col bg-success">1 of 2</div>
-            <div class="col bg-warning">2 of 2</div>
+      </section>
+
+      <section id="previewProjects">
+        <div class="container-fluid storyBlock redishBlock">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <h3 class="mb-5 customMT">Projects</h3>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <div class="squares">
+                  <div
+                    class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+                    style="background-image: url('unsplash-photo-1.jpg')"
+                  >
+                    <div
+                      class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+                    >
+                      <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                        Project 1
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="squares">
+                  <div
+                    class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+                    style="background-image: url('unsplash-photo-1.jpg')"
+                  >
+                    <div
+                      class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+                    >
+                      <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                        Project 2
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col gy-4">
+                <div class="squares">
+                  <div
+                    class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+                    style="background-image: url('unsplash-photo-1.jpg')"
+                  >
+                    <div
+                      class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+                    >
+                      <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                        Project 3
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col gy-4">
+                <div class="squares">
+                  <div
+                    class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+                    style="background-image: url('unsplash-photo-1.jpg')"
+                  >
+                    <div
+                      class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+                    >
+                      <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                        Project 4
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col mt-5"></div>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
 
     <script src="/src/app.js"></script>
   </body>

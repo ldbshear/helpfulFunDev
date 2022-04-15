@@ -31,6 +31,16 @@ nav {
   font-weight: 600;
 }
 
+span.outlines {
+  font-size: 2.95rem;
+  color: #f0d43a;
+}
+
+span.outlines:hover {
+  font-size: 2.95rem;
+  color: #f23557;
+}
+
 .yellowBlock {
   height: 100vh;
   background: #f0d43a;
@@ -39,6 +49,24 @@ nav {
 .blueBlock {
   height: 100vh;
   background: #22b2da;
+}
+
+.redishBlock {
+  height: 100vh;
+  background: #f23557;
+}
+
+h3.customMT {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.customMT {
+  margin-top: 150px;
+}
+
+.squares {
+  max-width: 500px;
 }
 
 .myBrand {
