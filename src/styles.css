@@ -5,6 +5,7 @@ h3,
 h4,
 h5 {
   font-family: "Kanit", sans-serif;
+  color: #283d3b;
 }
 
 nav {
@@ -43,7 +44,11 @@ span.outlines:hover {
 
 .yellowBlock {
   height: 100vh;
-  background: #f0d43a;
+  background: #f7dd72;
+}
+.yellow {
+  background: #f7dd72;
+  padding-bottom: 100px;
 }
 
 .blueBlock {
@@ -53,11 +58,21 @@ span.outlines:hover {
 
 .redishBlock {
   height: 100vh;
-  background: #f23557;
+  background: #e0607e;
+}
+
+.redish {
+  background: #e0607e;
+  padding-bottom: 100px;
+}
+
+.lightestBlock {
+  height: 100vh;
+  background: #e0d3de;
 }
 
 h3.customMT {
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 600;
 }
 
@@ -65,8 +80,14 @@ h3.customMT {
   margin-top: 150px;
 }
 
-.squares {
-  max-width: 500px;
+.imgHolder {
+  max-width: 400px;
+  min-width: 250px;
+}
+
+.imgBorder {
+  outline: 2px solid black;
+  box-shadow: 10px 10px black;
 }
 
 .myBrand {
@@ -77,6 +98,12 @@ h3.customMT {
 .dark__mode__moon {
   margin: 10px 26px;
   align-items: baseline;
+}
+
+.myPassionCopy {
+  max-width: 600px;
+  font-family: cursive;
+  font-size: 1.8rem;
 }
 
 .funBorder {
