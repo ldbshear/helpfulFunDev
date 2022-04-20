@@ -130,6 +130,42 @@ h3.customMT {
   transform: scale(1.025);
 }
 
+.loveTech1 {
+  background-image: url(/images/kidngrandma.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 10px solid #404040 !important;
+  border-radius: 30px !important;
+  padding-top: 100px;
+  max-width: 550px;
+  transition: 0.85s ease-in-out;
+}
+
+.loveTech2 {
+  background-image: url(/images/happykids.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 10px solid #404040 !important;
+  border-radius: 30px !important;
+  padding-top: 100px;
+  max-width: 550px;
+  transition: 0.85s ease-in-out;
+}
+
+.loveTech3 {
+  background-image: url(/images/onlineLearning.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 10px solid #404040 !important;
+  border-radius: 30px !important;
+  padding-top: 100px;
+  max-width: 550px;
+  transition: 0.85s ease-in-out;
+}
+
 .myBrand {
   font-family: "Kanit", sans-serif;
   padding-left: 10px;
@@ -143,7 +179,7 @@ h3.customMT {
 .myPassionCopy {
   max-width: 600px;
   font-family: cursive;
-  font-size: 1.8rem;
+  font-size: 2rem;
   color: #404040;
 }
 
@@ -175,6 +211,10 @@ h3.customMT {
   background-image: url(/images/logos/Octocat.png);
   background-size: contain;
 }
+.skill-gsap {
+  background-image: url(/images/logos/gsap-greensock.svg);
+  background-size: contain;
+}
 .skill-netlify {
   background-image: url(/images/logos/Netlify_logo.svg);
   background-size: contain;
@@ -183,6 +223,11 @@ h3.customMT {
   background-image: url(/images/logos/React-icon.png);
   background-size: contain;
 }
+.skill-seo {
+  background-image: url(/images/logos/Octocat.png);
+  background-size: contain;
+}
+
 .skill-shecodes {
   background-image: url(/images/logos/128px-HTML5_logo.png);
   background-size: contain;
