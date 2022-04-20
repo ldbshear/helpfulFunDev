@@ -98,7 +98,7 @@ h3.customMT {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  border: 3px solid black !important;
+  border: 10px solid #404040 !important;
   border-radius: 30px !important;
   padding-top: 100px;
   max-width: 550px;
@@ -119,12 +119,6 @@ h3.customMT {
   font-family: cursive;
   font-size: 1.8rem;
   color: #404040;
-}
-
-.funBorder {
-  min-width: 300px;
-  border: 10px solid black;
-  border-radius: 15px;
 }
 
 .skill {
