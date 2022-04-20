@@ -35,19 +35,20 @@ nav {
 span.outlines {
   font-size: 2.95rem;
   color: #f0d43a;
+  transition: all 0.2s ease-in-out;
 }
 
 span.outlines:hover {
-  font-size: 2.95rem;
+  font-size: 3.1rem;
   color: #f23557;
 }
 
 .yellowBlock {
   height: 100vh;
-  background: #f7dd72;
+  background: #f5ee9e;
 }
 .yellow {
-  background: #f7dd72;
+  background: #f5ee9e;
   padding-bottom: 100px;
 }
 
@@ -58,11 +59,11 @@ span.outlines:hover {
 
 .redishBlock {
   height: 100vh;
-  background: #e0607e;
+  background: #b3679b;
 }
 
 .redish {
-  background: #e0607e;
+  background: #b3679b;
   padding-bottom: 100px;
 }
 
@@ -88,6 +89,14 @@ h3.customMT {
 .imgBorder {
   outline: 2px solid black;
   box-shadow: 10px 10px black;
+}
+
+.pcDisplay {
+  background-image: url(/images/—Pngtree—isolated\ desktop\ computer\ icon\ pc_3777007.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 30px;
 }
 
 .myBrand {
