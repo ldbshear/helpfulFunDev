@@ -7,9 +7,30 @@ h5 {
   font-family: "Kanit", sans-serif;
   color: #404040;
 }
+#mainNavbar {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
 
-nav {
-  background: transparent;
+#mainNavbar .nav-link {
+  color: white;
+}
+#mainNavbar .nav-link:hover {
+  color: #ea1c2c;
+}
+
+#mainNavbar .navbar-brand {
+  color: #ea1c2c;
+  font-size: 1.5rem;
+}
+
+#headingGroup span {
+  color: #ea1c2c;
+}
+
+#headingGroup h1 {
+  font-weight: 100;
+  font-size: 3.75rem;
 }
 
 .storyBlock {
@@ -35,13 +56,13 @@ nav {
 }
 
 span.outlines {
-  font-size: 2.95rem;
+  font-size: 3.35rem;
   color: #f0d43a;
   transition: all 0.2s ease-in-out;
 }
 
 span.outlines:hover {
-  font-size: 3.1rem;
+  font-size: 3.5rem;
   color: #f23557;
 }
 
@@ -102,6 +123,11 @@ h3.customMT {
   border-radius: 30px !important;
   padding-top: 100px;
   max-width: 550px;
+  transition: 0.85s ease-in-out;
+}
+
+.pcDisplay:hover {
+  transform: scale(1.025);
 }
 
 .myBrand {
