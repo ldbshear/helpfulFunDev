@@ -131,6 +131,17 @@ h2.customMT {
   transform: scale(1.025);
 }
 
+.weatherPup {
+  background-image: url(/images/weatherPup.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 10px solid #404040 !important;
+  border-radius: 30px !important;
+  padding-top: 100px;
+  max-width: 550px;
+}
+
 .helpfulClock {
   background-image: url(/images/helpfulClock.png);
   background-size: cover;
@@ -140,7 +151,6 @@ h2.customMT {
   border-radius: 30px !important;
   padding-top: 100px;
   max-width: 550px;
-  transition: 0.85s ease-in-out;
 }
 
 .loveTech1 {
