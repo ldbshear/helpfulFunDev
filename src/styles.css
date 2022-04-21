@@ -92,10 +92,11 @@ span.outlines:hover {
 
 .lightestBlock {
   height: 100vh;
-  background: #e0d3de;
+  background: #f8fcfd;
 }
 
-h3.customMT {
+h3.customMT,
+h2.customMT {
   font-size: 4rem;
   font-weight: 600;
 }
@@ -115,7 +116,7 @@ h3.customMT {
 }
 
 .pcDisplay {
-  background-image: url(/images/—Pngtree—isolated\ desktop\ computer\ icon\ pc_3777007.png);
+  background-image: url(/images/pngtree-isolated-desktop-computer-icon-pc-3777007.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -130,8 +131,20 @@ h3.customMT {
   transform: scale(1.025);
 }
 
+.helpfulClock {
+  background-image: url(/images/helpfulClock.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 10px solid #404040 !important;
+  border-radius: 30px !important;
+  padding-top: 100px;
+  max-width: 550px;
+  transition: 0.85s ease-in-out;
+}
+
 .loveTech1 {
-  background-image: url(/images/kidngrandma.jpg);
+  background-image: url(/images/kidngrandma.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -143,7 +156,7 @@ h3.customMT {
 }
 
 .loveTech2 {
-  background-image: url(/images/happykids.jpg);
+  background-image: url(/images/happykids.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -155,7 +168,7 @@ h3.customMT {
 }
 
 .loveTech3 {
-  background-image: url(/images/onlineLearning.jpg);
+  background-image: url(/images/onlineLearning.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -183,12 +196,18 @@ h3.customMT {
   color: #404040;
 }
 
+.experienceBody {
+  background: #f8fcfd;
+}
+
 .skill {
   background-repeat: no-repeat;
   background-position: center;
-  min-width: 160px !important;
+  min-width: 140px !important;
   max-width: 180px;
   padding: 100px 20px;
+  border: 10px solid #404040 !important;
+  border-radius: 30px !important;
 }
 
 .skill-html {
@@ -231,4 +250,32 @@ h3.customMT {
 .skill-shecodes {
   background-image: url(/images/logos/128px-HTML5_logo.png);
   background-size: contain;
+}
+
+.aboutMeStyles {
+  background: #22b2da;
+}
+
+.WhiteAboutMeContainer {
+  background: #f8fcfd;
+  border-radius: 20px;
+  max-width: 700px;
+}
+
+ul.aboutCopy,
+li.aboutCopy {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.aboutCopy {
+  font-family: cursive;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  color: #404040;
+}
+
+.contactBtn {
+  background: #22b2da !important;
 }
