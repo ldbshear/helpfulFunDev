@@ -54,6 +54,7 @@ h5 {
   height: 120px;
   margin-top: 10px;
   margin-bottom: 15px;
+  transform: translateX(-100px);
   opacity: 0;
 }
 
@@ -63,6 +64,8 @@ h5 {
   background-repeat: no-repeat;
   width: auto;
   height: 120px;
+  transform: translateY(100px);
+  opacity: 0;
 }
 
 .textBlock {
@@ -246,7 +249,7 @@ h2.customMT {
 }
 
 .experienceBody {
-  background: #f8fcfd;
+  background: #f45d01;
 }
 
 .skill {
@@ -325,6 +328,124 @@ li.aboutCopy {
   color: #404040;
 }
 
+.aboutImgContainer {
+  background: url(/images/happyCoffee.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 160px;
+  transform: scale(1.5);
+}
+
 .contactBtn {
   background: #22b2da !important;
+}
+
+@media (max-width: 1359px) {
+  p.textBlockParagraph {
+    font-size: 2.7rem;
+    font-weight: 900;
+    color: #404040;
+  }
+
+  span.outlines {
+    font-size: 3.15rem;
+    color: #f0d43a;
+    transition: all 0.2s ease-in-out;
+  }
+
+  span.outlines:hover {
+    font-size: 3.15rem;
+    color: #f23557;
+  }
+}
+
+@media (max-width: 1085px) {
+  p.textBlockParagraph {
+    font-size: 2.6rem;
+    font-weight: 900;
+    color: #404040;
+  }
+
+  span.outlines {
+    font-size: 2.75rem;
+    color: #f0d43a;
+    transition: all 0.2s ease-in-out;
+  }
+
+  span.outlines:hover {
+    font-size: 2.75rem;
+    color: #f23557;
+  }
+}
+
+@media (max-width: 928px) {
+  p.textBlockParagraph {
+    font-size: 2.35rem;
+    font-weight: 900;
+    color: #404040;
+  }
+
+  span.outlines {
+    font-size: 2.45rem;
+    color: #f0d43a;
+    transition: all 0.2s ease-in-out;
+  }
+
+  span.outlines:hover {
+    font-size: 2.45rem;
+    color: #f23557;
+  }
+
+  .aboutMeGreetings {
+    text-align: center;
+  }
+  .aboutImgContainer {
+    margin-top: 20px;
+    margin-left: 35%;
+  }
+}
+
+@media (max-width: 716px) {
+  p.textBlockParagraph {
+    font-size: 2rem;
+    font-weight: 900;
+    color: #404040;
+  }
+
+  span.outlines {
+    font-size: 2.25rem;
+    color: #f0d43a;
+    transition: all 0.2s ease-in-out;
+  }
+
+  span.outlines:hover {
+    font-size: 2.25rem;
+    color: #f23557;
+  }
+
+  .aboutMeGreetings {
+    text-align: center;
+  }
+  .aboutImgContainer {
+    margin-top: 20px;
+    margin-left: 35%;
+  }
+}
+
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .aboutMeGreetings {
+    text-align: center;
+  }
+
+  .aboutImgContainer {
+    transform: scale(1);
+    margin-top: 20px;
+    margin-left: 35%;
+  }
+
+  h2.customMT {
+    font-size: 3.5rem;
+  }
 }

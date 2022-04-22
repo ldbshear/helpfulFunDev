@@ -4,7 +4,7 @@ function changeNavColor(e) {
     colorChanged.style.background = "#dec0de";
     setTimeout(() => {
       colorChanged.style.background = "";
-    }, 2000);
+    }, 3000);
   }
 }
 
@@ -19,16 +19,15 @@ document.addEventListener("scroll", changeNavColor);
 
 // function hideImg(e) {}
 
-let triggerHelpful = document.getElementById("helpful");
-//
-// triggerHelpful.addEventListener("mouseout", hideImg);
+const triggerHelpful = document.getElementById("helpful");
+const triggerEducational = document.getElementById("educational");
+const triggerFun = document.getElementById("fun");
 
 let hideNShow = {
   show: function (e) {
     e.style.opacity = "1";
-    // e.style.transform = "translateX(100px)";
     e.style.transform = "scale(1.2)";
-    e.style.transition = "1.3s ease-in-out";
+    e.style.transition = "1.2s ease-in-out";
   },
   hide: function (e) {
     e.style.opacity = "0";
@@ -40,9 +39,25 @@ triggerHelpful.addEventListener("mouseenter", function () {
   let showHelpful = document.querySelector(".imgContainer");
   hideNShow.show(showHelpful);
 });
-
 triggerHelpful.addEventListener("mouseout", function () {
   let showHelpful = document.querySelector(".imgContainer");
   hideNShow.hide(showHelpful);
 });
+triggerEducational.addEventListener("mouseenter", function () {
+  let showEducational = document.querySelector(".imgContainer2");
+  hideNShow.show(showEducational);
+});
+triggerEducational.addEventListener("mouseout", function () {
+  let showEducational = document.querySelector(".imgContainer2");
+  hideNShow.hide(showEducational);
+});
+triggerFun.addEventListener("mouseenter", function () {
+  let showFun = document.querySelector(".imgContainer3");
+  hideNShow.show(showFun);
+});
+triggerFun.addEventListener("mouseout", function () {
+  let showFun = document.querySelector(".imgContainer3");
+  hideNShow.hide(showFun);
+});
+
 console.log(hideNShow);
