@@ -34,7 +34,35 @@ h5 {
 }
 
 .storyBlock {
-  height: 100vh;
+}
+
+.imgContainer {
+  background: url(/images/helpfulpc.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 120px;
+  margin-bottom: 15px;
+  opacity: 0;
+}
+
+.imgContainer2 {
+  background: url(/images/educational.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 120px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  opacity: 0;
+}
+
+.imgContainer3 {
+  background: url(/images/funBallons.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 120px;
 }
 
 .textBlock {
@@ -91,8 +119,8 @@ span.outlines:hover {
 }
 
 .lightestBlock {
-  height: 100vh;
   background: #f8fcfd;
+  height: 100vh;
 }
 
 h3.customMT,
@@ -129,6 +157,17 @@ h2.customMT {
 
 .pcDisplay:hover {
   transform: scale(1.025);
+}
+
+.loveCoffee {
+  background-image: url(/images/coffee.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 10px solid #404040 !important;
+  border-radius: 30px !important;
+  padding-top: 100px;
+  max-width: 550px;
 }
 
 .weatherPup {
