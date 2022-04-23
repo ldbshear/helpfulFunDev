@@ -1,3 +1,14 @@
+:root {
+  --main-white-color: #f8fcfd;
+  --main-black-color: #404040;
+  --secondary-black-color: #272727;
+  --main-yellow-color: #f5ee9e;
+  --secondary-yellow-color: #f0d43a;
+  --main-burgundy-color: #b3679b;
+  --main-orange-color: #f45d01;
+  --main-blue-color: #22b2da;
+}
+
 body,
 h1,
 h2,
