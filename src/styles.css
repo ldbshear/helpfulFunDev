@@ -3,7 +3,8 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+li {
   font-family: "Kanit", sans-serif;
   color: #404040;
 }
@@ -13,15 +14,25 @@ h5 {
 }
 
 #mainNavbar .nav-link {
-  color: white;
+  color: #404040;
 }
 #mainNavbar .nav-link:hover {
-  color: #ea1c2c;
+  color: #272727;
+  font-weight: 400;
+  transition: 0.2s ease-in-out;
 }
 
 #mainNavbar .navbar-brand {
-  color: #ea1c2c;
-  font-size: 1.5rem;
+  color: #404040;
+  font-size: 1.85rem;
+  font-family: cursive;
+  font-weight: 500;
+}
+
+#mainNavbar .navbar-brand:hover {
+  color: #272727;
+  font-weight: 400;
+  transition: 0.2s ease-in-out;
 }
 
 #headingGroup span {
