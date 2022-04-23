@@ -1,23 +1,14 @@
-function changeNavColor(e) {
-  let colorChanged = document.getElementById("mainNavbar");
-  if (e) {
-    colorChanged.style.background = "#dec0de";
-    setTimeout(() => {
-      colorChanged.style.background = "";
-    }, 3000);
-  }
-}
-
-document.addEventListener("scroll", changeNavColor);
-
-// function showImg(e) {
-//   console.log("helpful");
-
-//   showHelpful.style.opacity = "1";
-//   showHelpful.style.transition = "2s ease-in-out";
+// function changeNavColor(e) {
+//   let colorChanged = document.getElementById("mainNavbar");
+//   if (e) {
+//     colorChanged.style.background = "#dec0de";
+//     setTimeout(() => {
+//       colorChanged.style.background = "";
+//     }, 3000);
+//   }
 // }
 
-// function hideImg(e) {}
+// document.addEventListener("scroll", changeNavColor);
 
 const triggerHelpful = document.getElementById("helpful");
 const triggerEducational = document.getElementById("educational");
