@@ -17,7 +17,7 @@ h4,
 h5,
 li {
   font-family: "Kanit", sans-serif;
-  color: #404040;
+  color: var(--main-black-color);
 }
 #mainNavbar {
   font-size: 1.5rem;
@@ -25,23 +25,23 @@ li {
 }
 
 #mainNavbar .nav-link {
-  color: #404040;
+  color: var(--main-black-color);
 }
 #mainNavbar .nav-link:hover {
-  color: #272727;
+  color: var(--secondary-black-color);
   font-weight: 400;
   transition: 0.2s ease-in-out;
 }
 
 #mainNavbar .navbar-brand {
-  color: #404040;
+  color: var(--main-black-color);
   font-size: 1.85rem;
   font-family: cursive;
   font-weight: 500;
 }
 
 #mainNavbar .navbar-brand:hover {
-  color: #272727;
+  color: var(--secondary-black-color);
   font-weight: 400;
   transition: 0.2s ease-in-out;
 }
@@ -99,52 +99,53 @@ li {
   font-size: 2rem;
   font-style: italic;
   font-weight: 400;
-  color: #404040;
+  color: var(--main-black-color);
 }
 
 .textBlockParagraph {
   font-size: 3.35rem;
   font-weight: 900;
-  color: #404040;
+  color: var(--main-black-color);
 }
 
 span.outlines {
   font-size: 3.35rem;
-  color: #f0d43a;
+  color: var(--secondary-yellow-color);
   transition: all 0.2s ease-in-out;
 }
 
 span.outlines:hover {
   font-size: 3.5rem;
-  color: #f23557;
+  color: var(--main-orange-color);
 }
 
 .yellowBlock {
   height: 100vh;
-  background: #f5ee9e;
+  background: var(--main-yellow-color);
 }
+
 .yellow {
-  background: #f5ee9e;
+  background: var(--main-yellow-color);
   padding-bottom: 100px;
 }
 
 .blueBlock {
   height: 100vh;
-  background: #22b2da;
+  background: var(--main-blue-color);
 }
 
 .redishBlock {
   height: 100vh;
-  background: #b3679b;
+  background: var(--main-burgundy-color);
 }
 
 .redish {
-  background: #b3679b;
+  background: var(--main-burgundy-color);
   padding-bottom: 100px;
 }
 
 .lightestBlock {
-  background: #f8fcfd;
+  background: var(--main-white-color);
   height: 100vh;
 }
 
@@ -173,7 +174,7 @@ h2.customMT {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  border: 10px solid #404040 !important;
+  border: 10px solid var(--main-black-color) !important;
   border-radius: 30px !important;
   padding-top: 100px;
   max-width: 550px;
@@ -189,7 +190,7 @@ h2.customMT {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  border: 10px solid #404040 !important;
+  border: 10px solid var(--main-black-color) !important;
   border-radius: 30px !important;
   padding-top: 100px;
   max-width: 550px;
@@ -200,7 +201,7 @@ h2.customMT {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  border: 10px solid #404040 !important;
+  border: 10px solid var(--main-black-color) !important;
   border-radius: 30px !important;
   padding-top: 100px;
   max-width: 550px;
@@ -211,7 +212,7 @@ h2.customMT {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  border: 10px solid #404040 !important;
+  border: 10px solid var(--main-black-color) !important;
   border-radius: 30px !important;
   padding-top: 100px;
   max-width: 550px;
@@ -222,7 +223,7 @@ h2.customMT {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  border: 10px solid #404040 !important;
+  border: 10px solid var(--main-black-color) !important;
   border-radius: 30px !important;
   padding-top: 100px;
   max-width: 550px;
@@ -234,7 +235,7 @@ h2.customMT {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  border: 10px solid #404040 !important;
+  border: 10px solid var(--main-black-color) !important;
   border-radius: 30px !important;
   padding-top: 100px;
   max-width: 550px;
@@ -246,7 +247,7 @@ h2.customMT {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  border: 10px solid #404040 !important;
+  border: 10px solid var(--main-black-color) !important;
   border-radius: 30px !important;
   padding-top: 100px;
   max-width: 550px;
@@ -267,11 +268,11 @@ h2.customMT {
   max-width: 600px;
   font-family: cursive;
   font-size: 2rem;
-  color: #404040;
+  color: var(--main-black-color);
 }
 
 .experienceBody {
-  background: #f45d01;
+  background: var(--main-orange-color);
 }
 
 .skill {
@@ -280,7 +281,7 @@ h2.customMT {
   min-width: 140px !important;
   max-width: 180px;
   padding: 100px 20px;
-  border: 10px solid #404040 !important;
+  border: 10px solid var(--main-black-color) !important;
   border-radius: 30px !important;
 }
 
@@ -327,11 +328,11 @@ h2.customMT {
 }
 
 .aboutMeStyles {
-  background: #22b2da;
+  background: var(--main-blue-color);
 }
 
 .WhiteAboutMeContainer {
-  background: #f8fcfd;
+  background: var(--main-white-color);
   border-radius: 20px;
   max-width: 700px;
 }
@@ -347,7 +348,7 @@ li.aboutCopy {
   font-family: cursive;
   font-size: 1.25rem;
   line-height: 1.5;
-  color: #404040;
+  color: var(--main-black-color);
 }
 
 .aboutImgContainer {
@@ -360,25 +361,25 @@ li.aboutCopy {
 }
 
 .contactBtn {
-  background: #22b2da !important;
+  background: var(--main-blue-color) !important;
 }
 
 @media (max-width: 1359px) {
   p.textBlockParagraph {
     font-size: 2.7rem;
     font-weight: 900;
-    color: #404040;
+    color: var(--main-black-color);
   }
 
   span.outlines {
     font-size: 3.15rem;
-    color: #f0d43a;
+    color: var(--secondary-yellow-color);
     transition: all 0.2s ease-in-out;
   }
 
   span.outlines:hover {
     font-size: 3.15rem;
-    color: #f23557;
+    color: var(--main-orange-color);
   }
 }
 
@@ -386,18 +387,18 @@ li.aboutCopy {
   p.textBlockParagraph {
     font-size: 2.6rem;
     font-weight: 900;
-    color: #404040;
+    color: var(--main-black-color);
   }
 
   span.outlines {
     font-size: 2.75rem;
-    color: #f0d43a;
+    color: var(--secondary-yellow-color);
     transition: all 0.2s ease-in-out;
   }
 
   span.outlines:hover {
     font-size: 2.75rem;
-    color: #f23557;
+    color: var(--main-orange-color);
   }
 }
 
@@ -405,18 +406,18 @@ li.aboutCopy {
   p.textBlockParagraph {
     font-size: 2.35rem;
     font-weight: 900;
-    color: #404040;
+    color: var(--main-black-color);
   }
 
   span.outlines {
     font-size: 2.45rem;
-    color: #f0d43a;
+    color: var(--secondary-yellow-color);
     transition: all 0.2s ease-in-out;
   }
 
   span.outlines:hover {
     font-size: 2.45rem;
-    color: #f23557;
+    color: var(--main-orange-color);
   }
 
   .aboutMeGreetings {
@@ -432,18 +433,18 @@ li.aboutCopy {
   p.textBlockParagraph {
     font-size: 2rem;
     font-weight: 900;
-    color: #404040;
+    color: var(--main-black-color);
   }
 
   span.outlines {
     font-size: 2.25rem;
-    color: #f0d43a;
+    color: var(--secondary-yellow-color);
     transition: all 0.2s ease-in-out;
   }
 
   span.outlines:hover {
     font-size: 2.25rem;
-    color: #f23557;
+    color: var(--main-orange-color);
   }
 
   .aboutMeGreetings {
