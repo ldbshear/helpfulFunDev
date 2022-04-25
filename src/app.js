@@ -51,4 +51,3 @@ triggerFun.addEventListener("mouseout", function () {
   hideNShow.hide(showFun);
 });
 
-console.log(hideNShow);

@@ -9,6 +9,10 @@
   --main-blue-color: #22b2da;
 }
 
+body {
+  min-height: 100vh;
+}
+
 body,
 h1,
 h2,
@@ -201,6 +205,15 @@ h2.customMT {
   transform: scale(1.025);
 }
 
+#happyCoffeeIndexImg {
+  height: 300px;
+}
+
+#contactMeIndex {
+  color: var(--main-white-color) !important;
+  font-size: 1.8rem;
+}
+
 .loveCoffee {
   background-image: url(/images/coffee.png);
   background-size: cover;
@@ -220,6 +233,7 @@ h2.customMT {
   border: 10px solid var(--main-black-color) !important;
   border-radius: 30px !important;
   padding-top: 100px;
+
   max-width: 550px;
 }
 
@@ -293,7 +307,7 @@ h2.customMT {
 }
 
 .experienceBody {
-  background: var(--main-orange-color);
+  background: var(--main-yellow-color);
 }
 
 .skill {
@@ -363,6 +377,7 @@ li.aboutCopy {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  text-align: start;
 }
 
 .aboutCopy {
@@ -381,8 +396,10 @@ li.aboutCopy {
   transform: scale(1.5);
 }
 
-.contactBtn {
+button.contactBtn {
   background: var(--main-blue-color) !important;
+  color: var(--main-white-color) !important;
+  font-size: 1.8rem;
 }
 
 @media (max-width: 1359px) {
@@ -424,6 +441,19 @@ li.aboutCopy {
 }
 
 @media (max-width: 928px) {
+  .pcDisplay {
+    background-image: url(/images/pngtree-isolated-desktop-computer-icon-pc-3777007.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 10px solid var(--main-black-color) !important;
+    border-radius: 30px !important;
+    padding-top: 100px;
+    min-width: 250px;
+    max-width: 550px;
+    transition: 0.85s ease-in-out;
+  }
+
   p.textBlockParagraph {
     font-size: 2.35rem;
     font-weight: 900;
