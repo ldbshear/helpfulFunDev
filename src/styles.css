@@ -9,10 +9,6 @@
   --main-blue-color: #22b2da;
 }
 
-body {
-  min-height: 100vh;
-}
-
 body,
 h1,
 h2,
@@ -123,7 +119,7 @@ span.outlines {
 
 span.outlines:hover {
   font-size: 3.5rem;
-  color: var(--main-orange-color);
+  color: var(--main-burgundy-color);
 }
 
 .yellowBlock {
@@ -174,6 +170,9 @@ h2.customMT {
 
 .customMT {
   margin-top: 150px;
+}
+.customMB {
+  margin-bottom: 150px;
 }
 
 .imgHolder {
