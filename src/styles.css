@@ -65,8 +65,6 @@ a {
   font-size: 3.75rem;
 }
 
-
-
 .imgContainer {
   background: url(/images/helpfulpc.webp);
   background-size: contain;
@@ -255,6 +253,7 @@ h2.customMT {
   border: 10px solid var(--main-black-color) !important;
   border-radius: 30px !important;
   padding-top: 100px;
+  padding-bottom: 100px;
   max-width: 550px;
   transition: 0.85s ease-in-out;
 }
@@ -291,6 +290,10 @@ h2.customMT {
 .dark__mode__moon {
   margin: 10px 26px;
   align-items: baseline;
+}
+
+.passionTitle {
+  margin-top: 150px !important;
 }
 
 .myPassionCopy {
@@ -365,8 +368,9 @@ h2.customMT {
   background: var(--main-blue-color);
 }
 
-.WhiteAboutMeContainer {
+.whiteAboutMeContainer {
   background: var(--main-white-color);
+  margin-top: 100px !important;
   border-radius: 20px;
   max-width: 700px;
 }
