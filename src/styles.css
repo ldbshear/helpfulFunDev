@@ -9,6 +9,10 @@
   --main-blue-color: #22b2da;
 }
 
+body {
+  max-width: 100vw;
+}
+
 body,
 h1,
 h2,
@@ -61,7 +65,11 @@ a {
   font-size: 3.75rem;
 }
 
-.imgContainer {
+.homePage {
+  max-width: 100%;
+}
+
+/* .imgContainer {
   background: url(/images/helpfulpc.webp);
   background-size: contain;
   background-repeat: no-repeat;
@@ -91,7 +99,7 @@ a {
   height: 120px;
   transform: translateY(100px);
   opacity: 0;
-}
+} */
 
 .textBlock {
   margin-top: 150px;
@@ -160,6 +168,10 @@ span.outlines:hover {
 .lightest {
   background: var(--main-white-color);
   padding-bottom: 100px;
+}
+
+.lightestBkg {
+  background: var(--main-white-color);
 }
 
 h3.customMT,
@@ -254,19 +266,17 @@ h2.customMT {
   padding-top: 100px;
   padding-bottom: 100px;
   max-width: 550px;
-  transition: 0.85s ease-in-out;
 }
 
 .loveTech2 {
   background-image: url(/images/happykids.webp);
   background-size: cover;
-  background-position: center;
+  background-position: center left;
   background-repeat: no-repeat;
   border: 10px solid var(--main-black-color) !important;
   border-radius: 30px !important;
   padding-top: 100px;
   max-width: 550px;
-  transition: 0.85s ease-in-out;
 }
 
 .loveTech3 {
@@ -278,7 +288,6 @@ h2.customMT {
   border-radius: 30px !important;
   padding-top: 100px;
   max-width: 550px;
-  transition: 0.85s ease-in-out;
 }
 
 .myBrand {
@@ -473,6 +482,14 @@ button.contactBtn {
     color: var(--main-orange-color);
   }
 
+  .passionTitle {
+    text-align: center;
+    margin-left: 0 !important;
+  }
+  .passionTitleCopy {
+    text-align: center;
+  }
+
   .aboutMeGreetings {
     text-align: center;
   }
@@ -511,6 +528,34 @@ button.contactBtn {
 
 /* // `sm` applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+  p.textBlockParagraph {
+    font-size: 2.3rem;
+    font-weight: 900;
+    color: var(--main-black-color);
+  }
+
+  .aboutMeGreetings {
+    text-align: center;
+  }
+
+  .aboutImgContainer {
+    transform: scale(1);
+    margin-top: 20px;
+    margin-left: 35%;
+  }
+
+  h2.customMT {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 375.98px) {
+  p.textBlockParagraph {
+    font-size: 1.7rem;
+    font-weight: 900;
+    color: var(--main-black-color);
+  }
+
   .aboutMeGreetings {
     text-align: center;
   }
